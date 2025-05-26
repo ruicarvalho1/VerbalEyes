@@ -1,0 +1,24 @@
+path: ./coco_domestic
+
+train: images/train
+val: images/train
+
+nc: 17
+names:
+  - tv
+  - microwave
+  - oven
+  - refrigerator
+  - sink
+  - toaster
+  - bed
+  - couch
+  - dining table
+  - laptop
+  - keyboard
+  - mouse
+  - remote
+  - cell phone
+  - book
+  - clock
+  - vase

@@ -9,7 +9,7 @@ import time
 import platform
 
 
-model = YOLO("yolov8m.pt")
+model = YOLO("runs/detect/train/weights/best.pt")
 
 cap = cv2.VideoCapture(0)
 
